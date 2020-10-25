@@ -1,5 +1,9 @@
 # Touch Indicator
-(Browser function) Animated indicator for touch/click on an HTML element.
+(Browser function) Animated indicator when touching/clicking on an HTML element.
+
+Example image with a round indicator:
+
+![Example button with indicator](example.jpg)
 
 ## Import
 ```javascript
