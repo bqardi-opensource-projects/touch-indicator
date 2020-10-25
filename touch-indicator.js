@@ -1,26 +1,3 @@
-touchIndicator({
-    // The name for the HTML element's class:
-    name: "touchIndicator",
-    // The duration of the animation:
-    duration: 500,
-    // Size of the indicator:
-    size: 150,
-    // The start opacity (ends at 0):
-    opacity: 0.3,
-    // The start transform scale value (ends at 1):
-    scale: 0.2,
-    // The color of the indicator:
-    color: "#fff",
-    // Show a square indicator instead of the round one:
-    square: false,
-    // Define a delay in ms for when to start the animation:
-    delay: 0,
-    // Create a ripple effect by defining number of ripples:
-    ripples: 1,
-    // The time between each ripple effect:
-    interval: 100
-});
-
 function touchIndicator(options){
     options = options || {};
     options.name = options.name || "touchIndicator";
