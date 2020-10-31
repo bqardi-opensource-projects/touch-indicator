@@ -25,6 +25,11 @@ touchIndicator();
 
 That's it! Simple, right?
 
+Oh! Remember to set your script as `type="module"`, so you don't get the error message `Uncaught SyntaxError: Cannot use import statement outside a module`:
+```html
+<script src="script.js" type="module"></script>
+```
+
 ## Options
 Well, there is more, don't worry.
 There is a good amount of options you can change/configure.
