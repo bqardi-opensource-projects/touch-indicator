@@ -68,6 +68,8 @@ touchIndicator({
     // Create a ripple effect by defining number of ripples:
     ripples: 1,
     // The time in ms between each ripple effect:
-    interval: 100
+    interval: 100,
+    // The z-index for the indicator, to make sure it's on top:
+    zIndex: 0
 });
 ```

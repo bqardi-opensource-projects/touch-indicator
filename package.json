@@ -1,6 +1,6 @@
 {
   "name": "touch-indicator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Animated indicator for touch/click on an HTML element.",
   "main": "touch-indicator.js",
   "scripts": {
